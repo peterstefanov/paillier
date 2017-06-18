@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.0" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true">  
+  <class id="1" language="java" name="src.paillier.crypto.PaillierCipher" project="JCAPaillierProvider" 
+    file="/JCAPaillierProvider/org/src/paillier/crypto/PaillierCipher.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="-71" y="-160" width="237" height="619"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="src.paillier.crypto.PaillierHomomorphicCipher" project="JCAPaillierProvider" 
+    file="/JCAPaillierProvider/org/src/paillier/crypto/PaillierHomomorphicCipher.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position x="693" y="-80" width="207" height="457"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="src.paillier.crypto.PaillierKey" project="JCAPaillierProvider" 
+    file="/JCAPaillierProvider/org/src/paillier/crypto/PaillierKey.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="346" y="10" width="201" height="277"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="src.paillier.crypto.PaillierKeyPairGenerator" project="JCAPaillierProvider" 
+    file="/JCAPaillierProvider/org/src/paillier/crypto/PaillierKeyPairGenerator.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position x="428" y="611" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="src.paillier.crypto.PaillierPrivateKey" project="JCAPaillierProvider" 
+    file="/JCAPaillierProvider/org/src/paillier/crypto/PaillierPrivateKey.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="696" y="501" width="221" height="223"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="src.paillier.crypto.PaillierProvider" project="JCAPaillierProvider" 
+    file="/JCAPaillierProvider/org/src/paillier/crypto/PaillierProvider.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="447" y="-110" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="src.paillier.crypto.PaillierPublicKey" project="JCAPaillierProvider" 
+    file="/JCAPaillierProvider/org/src/paillier/crypto/PaillierPublicKey.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="-66" y="520" width="230" height="187"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <dependency id="8">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <generalization id="11">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="14">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <generalization id="16">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
