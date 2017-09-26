@@ -39,3 +39,9 @@ USAGE
         The public and private key classes both descend from PaillierKey, which is
         simply a container for n and nsquare used in both classes PaillierPublicKey
         and PaillierPrivateKey.   
+     
+ ### Prerequisites
+ * OpenJDK
+ 
+ ## Authors
+ * **Petar Stefanov** - *inital work* - [git(peterstefanov)](https://github.com/peterstefanov/paillier)
