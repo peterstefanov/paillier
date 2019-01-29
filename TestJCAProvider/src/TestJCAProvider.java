@@ -142,7 +142,6 @@ public class TestJCAProvider {
 
 		// encrypt the plaintext using the public key
 		cipher.init(Cipher.ENCRYPT_MODE, key);
-
 		cipherText = cipher.doFinal(text);
 		BigInteger result = new BigInteger(cipherText);
 		System.err.println("BigInteger ciphertext: " + result);
