@@ -64,7 +64,7 @@ public class TestJCAProvider {
 		// product mod n^2
 		BigInteger tallyProduct = product.mod(n2);
 		System.err.println(" Product mod n^2:      " + tallyProduct);
-		d.decrypt(tallyProduct.toByteArray(), privKey, cipherHP);
+		test.decrypt(tallyProduct.toByteArray(), privKey, cipherHP);
 
 		test.decrypt(codedBytes.toByteArray(), privKey, cipherHP);
 		test.decrypt(codedBytes12.toByteArray(), privKey, cipherHP);
@@ -131,6 +131,7 @@ public class TestJCAProvider {
 				hexRepresentation += ":";
 			}
 		}
+		
 		return hexRepresentation;
 	}
 
